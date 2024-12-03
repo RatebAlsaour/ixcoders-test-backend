@@ -53,7 +53,7 @@ run command
 Sends a task report every day at 8:00 am by email
 
 
-##configration smtp
+#configration smtp
 
 MAIL_MAILER=log
 MAIL_HOST=127.0.0.1
@@ -66,7 +66,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 
 
-##configration pusher
+#configration pusher
 
 BROADCAST_CONNECTION=pusher
 
