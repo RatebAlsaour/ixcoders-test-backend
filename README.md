@@ -53,7 +53,8 @@ run command
 Sends a task report every day at 8:00 am by email
 
 
-##configration smtp
+
+**onfigration smtp**
 
 MAIL_MAILER=log
 
@@ -73,7 +74,9 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 
 
-#configration pusher
+
+## **Configration pusher**
+##configration pusher
 
 BROADCAST_CONNECTION=pusher
 
@@ -92,14 +95,20 @@ PUSHER_SCHEME="https"
 PUSHER_APP_CLUSTER="mt1"
 
 
-##Layers used
+
+
+
+## **Layers used**
+
 view -> controller -> servcie -> repo ->dto-> model 
 
 The filtering and searching process is done in BaseRepo
 
 The repo layer is used for research and business logic .
 
-##Notice
+
+## **Notice**
+
 #to create repo use command
 
    ```bash
@@ -119,5 +128,5 @@ The repo layer is used for research and business logic .
 
 
 
-رهثص 
+
 
