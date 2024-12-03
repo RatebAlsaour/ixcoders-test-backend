@@ -12,7 +12,7 @@ set up project
 
 ---
 
-##Run steps
+## Run steps
 run command 
    ```bash
 git clone https://github.com/RatebAlsaour/ixcoders-test-backend.git
@@ -33,19 +33,23 @@ npm run dev
    ```
 
 
+**login**
+ 
+To access the system, use the following credentials:
 
-##login 
-#email is *'admin@gmail.com'*
-#password is *'admin'*
+- **Email:** `admin@gmail.com`
+- **Password:** `admin`
 
 
-##Run queue 
+
+**Run queue**
 run command 
    ```bash
    php artisan queue:work
    ```
 
-##Run schedule 
+
+**Run schedule**
 run command 
    ```bash
    php artisan schedule:run
