@@ -58,7 +58,7 @@ Sends a task report every day at 8:00 am by email
 
 
 
-**onfigration smtp**
+## **onfigration smtp**
 
 MAIL_MAILER=log
 
