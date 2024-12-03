@@ -16,14 +16,20 @@ set up project
 run command 
    ```bash
 git clone https://github.com/RatebAlsaour/ixcoders-test-backend.git
-composer install 
+
+composer install
+
 cp .env.example .env
+
 php artisan key:generate
+
 php artisan migrate
+
 php artisan db:seed
+
 npm install
+
 npm run dev
-1. قم باستنساخ الم
    ```
 
 
