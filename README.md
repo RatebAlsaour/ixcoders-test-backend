@@ -53,15 +53,22 @@ run command
 Sends a task report every day at 8:00 am by email
 
 
-#configration smtp
+##configration smtp
 
 MAIL_MAILER=log
+
 MAIL_HOST=127.0.0.1
+
 MAIL_PORT=2525
+
 MAIL_USERNAME=null
+
 MAIL_PASSWORD=null
+
 MAIL_ENCRYPTION=null
+
 MAIL_FROM_ADDRESS="hello@example.com"
+
 MAIL_FROM_NAME="${APP_NAME}"
 
 
@@ -71,11 +78,17 @@ MAIL_FROM_NAME="${APP_NAME}"
 BROADCAST_CONNECTION=pusher
 
 PUSHER_APP_ID="your-pusher-app-id"
+
 PUSHER_APP_KEY="your-pusher-key"
+
 PUSHER_APP_SECRET="your-pusher-secret"
+
 PUSHER_HOST=
+
 PUSHER_PORT=443
+
 PUSHER_SCHEME="https"
+
 PUSHER_APP_CLUSTER="mt1"
 
 
