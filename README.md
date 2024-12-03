@@ -35,8 +35,8 @@ npm run dev
 
 
 ##login 
--email is *'admin@gmail.com'*
--password is *'admin'*
+#email is *'admin@gmail.com'*
+#password is *'admin'*
 
 
 ##Run queue 
